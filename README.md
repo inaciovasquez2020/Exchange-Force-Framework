@@ -41,3 +41,26 @@ This ensures that the "Exchange" maintains the deterministic integrity of the co
 **Web:** [www.vasquezresearch.com](https://www.vasquezresearch.com)  
 **Email:** [inacio@vasquezresearch.com](mailto:inacio@vasquezresearch.com)  
 **ORCID:** [0009-0008-8459-3400](https://orcid.org/0009-0008-8459-3400)
+
+---
+```markdown
+## Research Status
+
+The exchange force framework is conceptually closed.
+Remaining work concerns application-specific instantiations.
+
+## Citation
+
+```bibtex
+@manual{Vasquez_Exchange_Force_2026,
+  author       = {Vasquez, Inacio F.},
+  title        = {Exchange Force Framework — Structural Interaction Axioms},
+  institution  = {Independent Research Program},
+  year         = {2026},
+  url          = {https://github.com/inaciovasquez2020/Exchange-Force-Framework}
+}
+
+
+
+
+
