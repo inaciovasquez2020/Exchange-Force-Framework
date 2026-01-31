@@ -1,73 +1,100 @@
-# Exchange Force Framework
+# Exchange Force Framework  
 **Relational Interaction Axioms and Structural Force Closure**
 
 ---
 
-### 🛡️ Institutional Verification
-* **Registry ID:** `ART-EXF-01`
-* **Verification Status:** [Conditional — Logic Verified](https://inaciovasquez2020.github.io/vasquez-index/dashboard.html)
-* **Framework Alignment:** Unified Rigidity Framework (URF) — Interaction Layer
+## Scope
+
+This repository is a **Tier A module** in the **Scientific Infrastructure (URF)**.  
+It defines the **interaction layer** of the Unified Rigidity Framework.
+
+It contains:
+- relational coupling axioms,
+- exchange interaction operators,
+- structural force closure principles,
+- deterministic interaction constraints.
+
+No simulations, heuristics, or stochastic models are used.  
+All results are analytic and structural.
+
+---
+
+## Institutional Verification
+
+- **Registry ID:** ART-EXF-01  
+- **Status:** Definitions Closed / Theorems Conditional  
+- **Framework Alignment:** Unified Rigidity Framework (URF) — Interaction Layer  
 
 ---
 
 ## Significance Statement
-The **Exchange Force Framework** provides the canonical reference for the structural regime of exchange interactions. It formalizes the **Relational Coupling Constraints** that dictate how independent rigid systems interact. This framework bridges the gap between individual system rigidity and the collective force closure of multi-body relational networks.
 
-## Core Results
-* **Exchange Interaction Axioms:** Formal definition of state-swap operators within rigid structures.
-* **Structural Force Closure:** Principles governing the equilibrium of relational forces.
-* **Relational Coupling:** Constraints ensuring the preservation of the spectral gap ($\lambda_1 > 0$) across system boundaries.
+The **Exchange Force Framework** provides the canonical theory of  
+**how rigid systems interact without destroying rigidity**.
 
-## Mathematical Context
-In the URF ecosystem, the Exchange Force is analyzed via the coupling of two or more operator systems $H_A$ and $H_B$. The framework ensures that the interaction term $V_{int}$ does not collapse the global rigidity:
-$$\text{Spec}(\Delta_{A+B}) \approx \text{Spec}(\Delta_A) \otimes \text{Spec}(\Delta_B)$$
-This ensures that the "Exchange" maintains the deterministic integrity of the constituent parts.
+It formalizes **relational coupling constraints** ensuring that:
 
-## Artifacts & Manuscripts
-* **Core Definitions:** Locked (v1.0.2).
-* **Formal Closure:** In progress (Projected 2026).
-* **Verification Certificates:** Future artifacts will be registered via URF-SG JSON standards.
+- independent rigid systems remain rigid when coupled,
+- interaction terms do not collapse global spectral gaps,
+- force closure is structurally enforced.
 
-## Related Projects
-* **[URF Core](https://github.com/inaciovasquez2020/urf-core):** The mathematical foundation.
-* **[Vasquez Index](https://inaciovasquez2020.github.io/):** Canonical research hub.
-* **[Biological Friction](https://github.com/inaciovasquez2020/biological-friction-framework):** Complexity-based obstructions.
-
-## Status
-**Framework / Conditional.** Definitions are locked. Formal closure of the relational coupling axioms is the current research priority.
-
-## Contact
-**Inacio F. Vasquez** — Independent Research Program  
-**Web:** [www.vasquezresearch.com](https://www.vasquezresearch.com)  
-**Email:** [inacio@vasquezresearch.com](mailto:inacio@vasquezresearch.com)  
-**ORCID:** [0009-0008-8459-3400](https://orcid.org/0009-0008-8459-3400)
+This bridges single-system rigidity with **multi-system force stability**.
 
 ---
-```markdown
-## Research Status
 
-The exchange force framework is conceptually closed.
-Remaining work concerns application-specific instantiations.
+## Core Results
 
-## Citation
+### 1. Exchange Interaction Axioms
 
-```bibtex
-@manual{Vasquez_Exchange_Force_2026,
-  author       = {Vasquez, Inacio F.},
-  title        = {Exchange Force Framework — Structural Interaction Axioms},
-  institution  = {Independent Research Program},
-  year         = {2026},
-  url          = {https://github.com/inaciovasquez2020/Exchange-Force-Framework}
-}
+Formal definition of state-swap and coupling operators
+between admissible rigid systems.
 
+### 2. Structural Force Closure
 
+Interaction equilibria must preserve rigidity invariants.
 
+### 3. Relational Coupling Constraint
 
+For coupled systems \(H_A\) and \(H_B\):
 
-This repository is a Tier A module in the Scientific Infrastructure.
-It contains a canonical component of the Unified Rigidity Framework (URF).
-- v1.0 — Canonical Scientific Infrastructure release.
-All results are reproducible from the contents of this repository.
-Build and execution instructions are provided in this README.
-Root manifest:
-https://github.com/inaciovasquez2020/scientific-infrastructure
+\[
+\mathrm{Spec}(\Delta_{A+B}) \approx \mathrm{Spec}(\Delta_A) \otimes \mathrm{Spec}(\Delta_B)
+\]
+
+ensuring no collapse of global structure.
+
+---
+
+## Mathematical Context
+
+Exchange forces are modeled as bounded perturbations
+on admissible operator systems.
+
+The interaction operator \(V_{int}\) is constrained so that
+the combined system remains within the URF admissibility class.
+
+This provides a structural alternative to:
+- perturbative QFT heuristics,
+- empirical force fitting,
+- stochastic interaction models.
+
+---
+
+## Artifacts & Lifecycle
+
+- **Core Definitions:** Locked (v1.0)  
+- **Formal Closure:** Conditional (relational instantiation ongoing)  
+- **Verification Certificates:** To be registered via URF-SG  
+
+This module functions as the **interaction spine** of URF.
+
+---
+
+## Reproducibility
+
+All results are analytic and deterministic.
+
+Verification consists of:
+
+```bash
+ls
