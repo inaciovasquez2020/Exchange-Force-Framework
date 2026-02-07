@@ -25,4 +25,8 @@ This repository is intentionally minimal and statement-only.
 - No implementations
 - No numerical experiments
 
+## External Links
+- Conceptual foundations: https://inaciovasquez2020.github.io
+- Index: https://inaciovasquez2020.github.io/vasquez-index/
+
 Follow-up work belongs in separate repositories.
