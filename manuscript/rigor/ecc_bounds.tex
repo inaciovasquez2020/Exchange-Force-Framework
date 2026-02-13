@@ -1,0 +1,33 @@
+\section{Formal Bounds on Exchange Correlation Capacity}
+
+\begin{definition}[Operational Exchange Channel]
+An exchange channel is a completely positive map induced by symmetry
+projection or mediator elimination on a local Hilbert space $\mathcal{H}$.
+\end{definition}
+
+\begin{lemma}[ECC Upper Bound]
+Let $\mathcal{H}$ have dimension $d$ and let the mediator sector have effective
+rank $r$. Then the Exchange Correlation Capacity satisfies
+\[
+\mathrm{ECC} \le d^2 r .
+\]
+\end{lemma}
+
+\begin{proof}
+Exchange correlations arise from bilinear forms on $\mathcal{H}$ constrained
+by symmetry and mediator elimination. The number of independent correlation
+modes is bounded by the dimension of the induced operator algebra.
+\end{proof}
+
+\begin{theorem}[Quantitative Rank Collapse]
+For any admissible exchange interaction,
+\[
+\mathrm{rank}(H_{\mathrm{exchange}}) \le C(d,r),
+\]
+independent of system size.
+\end{theorem}
+
+\begin{proof}
+Finite ECC bounds the number of independent exchange channels. Each channel
+contributes at most one independent interaction mode.
+\end{proof}
