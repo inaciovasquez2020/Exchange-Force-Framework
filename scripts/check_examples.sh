@@ -1,3 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
-grep -q "Example:" examples/minimal_exchange.md
+
+FILES=$(find examples -type f -name "*.md")
+
+for f in $FILES; do
+  grep -q "Example:" "$f"
+  grep -q "Invariant" "$f"
+done
