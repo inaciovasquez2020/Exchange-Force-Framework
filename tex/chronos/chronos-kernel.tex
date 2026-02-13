@@ -1,0 +1,38 @@
+\section{Chronos Kernel: Capacity $\Rightarrow$ EntropyDepth}
+
+\begin{definition}[Locality class $\mathcal{L}$]
+An algorithm $A$ lies in $\mathcal{L}$ if it admits parameters $(k,R,C)$ and a transcript
+$\tau_0\to\tau_1\to\cdots\to\tau_T$ satisfying:
+\begin{enumerate}
+\item (Bounded locality) each update depends only on radius-$R$ neighborhoods and $\mathrm{FO}^k$-definable predicates;
+\item (Finite transcript capacity) $|\tau_{t+1}|-|\tau_t|\le C$ for all $t$;
+\item (Refinement form) the transcript is iterative local information refinement.
+\end{enumerate}
+\end{definition}
+
+\begin{lemma}[Capacity--Entropy Inequality]
+If $|\tau_{t+1}\setminus\tau_t|\le C$ then
+\[
+H(\tau_{t+1})-H(\tau_t)\le H(\tau_{t+1}\mid\tau_t)\le C\log 2.
+\]
+Consequently,
+\[
+H(\tau_T)-H(\tau_0)\le T\cdot C\log 2.
+\]
+\end{lemma}
+
+\begin{theorem}[Chronos Kernel]
+Assume global reconstruction at time $T$ implies $H(\tau_T)\ge H(F)-O(1)$ and $H(\tau_0)=O(1)$.
+Then for any $A\in\mathcal{L}$,
+\[
+\mathrm{EDA}_A(F)\ \ge\ \frac{H(F)}{C\log 2}-O(1).
+\]
+\end{theorem}
+
+\begin{definition}[Parity rigidity invariant for XOR-SAT]
+For $F=(Ax=b)$ over $\mathbb{F}_2$, define
+\[
+\Phi(F):=\dim(\ker A)-\dim(\ker A_{\mathrm{loc}}),
+\]
+where $A_{\mathrm{loc}}$ is the restriction induced by all radius-$R$, $\mathrm{FO}^k$-visible constraints.
+\end{definition}

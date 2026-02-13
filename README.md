@@ -30,3 +30,9 @@ This repository is intentionally minimal and statement-only.
 - Index: https://inaciovasquez2020.github.io/vasquez-index/
 
 Follow-up work belongs in separate repositories.
+
+## Chronos Kernel
+
+- Canonical note: `docs/chronos/CHRONOS_KERNEL.md`
+- LaTeX insert: `tex/chronos/chronos-kernel.tex`
+- Lean anchor: `lean/Chronos/Kernel.lean`
