@@ -36,3 +36,18 @@ Follow-up work belongs in separate repositories.
 - Canonical note: `docs/chronos/CHRONOS_KERNEL.md`
 - LaTeX insert: `tex/chronos/chronos-kernel.tex`
 - Lean anchor: `lean/Chronos/Kernel.lean`
+
+## Exchange-Force Certification (Released)
+
+This repository includes a released certification layer for the Exchange-Force Framework.
+
+Scope:
+- Structural definitions and deterministic computations
+- Exchange-force modeling under explicit constraints
+
+Non-scope:
+- No experimental claims
+- No new fundamental forces asserted
+- No claims beyond certified artifacts
+
+Certification artifacts are verifiable and immutable once released.

@@ -1,0 +1,24 @@
+{
+  "cert_id": "EXCHANGE-CERT-0001",
+  "claim": "Exchange-force framework definitions and computations are internally consistent under declared constraints",
+  "artifacts": [
+    "docs",
+    "src",
+    "models"
+  ],
+  "constraints": [
+    "no external network access",
+    "deterministic execution",
+    "finite transcript capacity"
+  ],
+  "capacity": {
+    "tokens": 12000,
+    "time_sec": 240,
+    "memory_mb": 4096
+  },
+  "non_claims": [
+    "no claim of experimental validation",
+    "no claim of new fundamental force",
+    "no claim beyond exchange-force modeling assumptions"
+  ]
+}
