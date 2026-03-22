@@ -1,0 +1,12 @@
+# Fdb version 4
+["pdflatex"] 1774145219.26261 "ecc_bounds_strong.tex" "ecc_bounds_strong.pdf" "ecc_bounds_strong" 1774145219.36382 2
+  "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
+  "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
+  "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
+  "ecc_bounds_strong.aux" 1774145219.2623 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "ecc_bounds_strong.tex" 1771009190.36619 1431 6edd4703c9b0155c46d462b571dc8759 ""
+  (generated)
+  "ecc_bounds_strong.aux"
+  "ecc_bounds_strong.log"
+  "ecc_bounds_strong.pdf"
+  (rewritten before read)
