@@ -1,0 +1,6 @@
+PWD /Users/inaciof.vasquez/github-audit/Exchange-Force-Framework/tex/chronos
+INPUT /usr/local/texlive/2025/texmf.cnf
+INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT chronos-kernel.tex
+OUTPUT chronos-kernel.log

@@ -1,0 +1,6 @@
+PWD /Users/inaciof.vasquez/github-audit/Exchange-Force-Framework/manuscript/rigor
+INPUT /usr/local/texlive/2025/texmf.cnf
+INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT ecc_bounds_strong.tex
+OUTPUT ecc_bounds_strong.log
